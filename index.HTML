@@ -1,0 +1,1158 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Trip Tekker</title>
+    <link rel="icon" type="image/x-icon"
+      href="./icon/WhatsApp_Image_2023-10-29_at_22.43.32_039a66bf-removebg-preview.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- css -->
+    <link rel="stylesheet" href="./style/style.css">
+    <!-- Frame Css -->
+    <link rel="stylesheet" href="./style/FrameWork.css" />
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet">
+    <!-- Font Icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  </head>
+
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <header>
+      <div class="container-fluid overflow-hidden row">
+        <div class="header-left w-100 row ">
+          <div class="Icon row">
+            <div class="Icon-img">
+              <a href="#HOME" onclick="tohome()">
+                <img src="./icon/WhatsApp_Image_2023-10-29_at_22.43.32_039a66bf-removebg-preview.png" alt="icon"
+                  class="w-100 h-100 ">
+              </a>
+            </div>
+            <span class="text-white">Trip Tekker</span>
+          </div>
+          <nav class="row justify-content-evenly col-9">
+            <div class="Navbar col-6 text-white">
+              <ul class="w-100 row justify-content-between flex-nowrap">
+                <li><a href="#" class="tab_btn Active">Home</a></li>
+                <li><a href="#" class="tab_btn">Travelers concourse</a></li>
+                <li><a href="#" class="tab_btn">Replace residense</a></li>
+                <li><a href="#" class="tab_btn">Ships</a></li>
+                <li><a href="#" class="tab_btn">Flights</a></li>
+                <li><a href="#" class="tab_btn">Find Place</a></li>
+              </ul>
+            </div>
+            <div class="Info row justify-content-evenly">
+              <!-- information Font -->
+              <div class="Font row">
+                <i class="tab_btn bx bxs-user"></i>
+                <i class="tab_btn bx bxs-cart-alt"></i>
+              </div>
+              <!-- information Login -->
+              <div class="Login row">
+                <a href="./Register.html" class="Color-Register">Register</a>
+                <a href="./login.html" class="Color-Login">Login</a>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="header-right">
+          <div class="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- End header -->
+    <main>
+      <!-- start section Home -->
+      <section id="HOME" class="content Active section-home container row col-11">
+        <div class="Home-left column col-12 col-lg-6 col-md-6 col-sm-12">
+          <div class="Top col-12">
+            <div>
+              <h4>the best deals on the world's best destinations</h4>
+            </div>
+            <div>
+              <h1>Best travel and destinations</h1>
+            </div>
+            <div>
+              <p>With travala you can experience new travel and the best tourist destinations that we have to offer</p>
+            </div>
+          </div>
+          <div class="Bottom column align-content-start col-12">
+            <div class="row justify-content-evenly col-10">
+              <button class="our-2">
+                <a href="#" class="our offers tab_btn">our offers <img src="./icon/Frame 48095422.svg" alt="go"
+                    class="pt-1"></a>
+              </button>
+              <button class="our-1 tab_btn">
+                <a href="#" class="our our-1 col-6"><img src="./icon/Vector.svg" alt="go">Our contacts</a>
+              </button>
+            </div>
+            <div>
+              <button class="our-2 our-3 col-12 tab_btn">
+                <a href="#" class="row">Events & Conferences<img src="./icon/Frame 48095422.svg" alt="go"
+                    class="pt-1"></a>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="Home-right col-12 col-lg-6 col-md-6 col-sm-12 pt-2">
+          <img src="./img/traveller1.png" alt="travel" class="mx-auto col-10" />
+        </div>
+      </section>
+      <!-- End section Home -->
+      <!-- start section Travelers concourse -->
+      <section class="content con-remove section-Travelers column text-white container">
+        <form action="#" class="col-12 mt-1">
+          <div class="top column col-12">
+            <div class="text_photo row col-10">
+              <div class="photo row col-1">
+                <img src="./img/mark.png" alt="mark" class="w-100">
+              </div>
+              <div class="text col-10 p-1">
+                <input type="text" placeholder="write a text ..." id="comment">
+              </div>
+            </div>
+            <div class="upload">
+              <input type="image" id="photo" value="Photo">
+              <input type="image" id="video" value="video">
+            </div>
+          </div>
+        </form>
+        <div class="row col-12">
+          <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+            <div class="bottom mt-3 col-12">
+              <div class="left col-12 col-lg-12 col-md-12 col-sm-12">
+                <div class="details col-12">
+                  <div class="line1 col-8 col-lg-6 col-md-8 col-sm-8 row justify-content-start">
+                    <div class="photo col-3">
+                      <img src="./img/bas.png" alt="photo" class="w-100 h-100">
+                    </div>
+                    <div class="m-1">
+                      <div>
+                        <h5>mohamed basuony</h5>
+                      </div>
+                      <div><span class="sponser">Sponsored . </span><img src="./icon/world.svg" alt="world"></div>
+                    </div>
+                  </div>
+                  <div class="line2 col-12 mt-2 mb-4 ">
+                    <p>Hey guys who is here will come to the pyramids trip ?</p>
+                  </div>
+                  <div class="line3 col-12 row justify-content-between flex-nowrap mb-2">
+                    <div class="left row">
+                      <div class="position-relative">
+                        <img src="./icon/Elike.png" alt="like" class="position-absolute">
+                        <img src="./icon/EH.png" alt="heart-h" class="position-absolute">
+                        <img src="./icon/EHH.png" alt="heart" class="position-absolute">
+                      </div>
+                      <span>129</span>
+                    </div>
+                    <div class="right">
+                      <span>12 comment</span>
+                      <span>8 shares</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="like col-12 row justify-content-between mt-1 mb-3">
+                  <i class="bx bx-like"> like</i>
+                  <i class="bx bx-comment"> comment</i>
+                </div>
+              </div>
+            </div>
+            <div class="comment col-12 col-lg-12 col-md-12 col-sm-12 p-2">
+              <div class="row col-12 justify-content-start m-1">
+                <div><img src="./icon/Avatar.png" alt="Avatar"></div>
+                <div>
+                  <div class="comment-details column">
+                    <span>Mohammed</span>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <div class="line3 mt-1 row justify-content-start">
+                    <i class="bx bx-like"> like</i>
+                    <input type="button" value="Reply"></input>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="bottom mt-3 col-12">
+              <div class="left col-12 col-lg-12 col-md-12 col-sm-12">
+                <div class="details col-12">
+                  <div class="line1 col-8 col-lg-6 col-md-8 col-sm-8 row justify-content-start">
+                    <div class="photo col-3">
+                      <img src="./img/bas.png" alt="photo" class="w-100 h-100">
+                    </div>
+                    <div class="m-1">
+                      <div>
+                        <h5>mohamed basuony</h5>
+                      </div>
+                      <div><span class="sponser">Sponsored . </span><img src="./icon/world.svg" alt="world"></div>
+                    </div>
+                  </div>
+                  <div class="line2 col-12 mt-2 mb-4 ">
+                    <p>Hey guys who is here will come to the pyramids trip ?</p>
+                  </div>
+                  <div class="line3 col-12 row justify-content-between flex-nowrap mb-2">
+                    <div class="left row">
+                      <div class="position-relative">
+                        <img src="./icon/Elike.png" alt="like" class="position-absolute">
+                        <img src="./icon/EH.png" alt="heart-h" class="position-absolute">
+                        <img src="./icon/EHH.png" alt="heart" class="position-absolute">
+                      </div>
+                      <span>129</span>
+                    </div>
+                    <div class="right">
+                      <span>12 comment</span>
+                      <span>8 shares</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="like col-12 row justify-content-between mt-1 mb-3">
+                  <i class="bx bx-like"> like</i>
+                  <i class="bx bx-comment"> comment</i>
+                </div>
+              </div>
+            </div>
+            <div class="comment col-12 col-lg-12 col-md-12 col-sm-12 p-2">
+              <div class="row col-12 justify-content-start m-1">
+                <div><img src="./icon/Avatar.png" alt="Avatar"></div>
+                <div>
+                  <div class="comment-details column">
+                    <span>Mohammed</span>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <div class="line3 mt-1 row justify-content-start">
+                    <i class="bx bx-like"> like</i>
+                    <input type="button" value="Reply"></input>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="bottom mt-3 col-12">
+              <div class="left col-12 col-lg-12 col-md-12 col-sm-12">
+                <div class="details col-12">
+                  <div class="line1 col-8 col-lg-6 col-md-8 col-sm-8 row justify-content-start">
+                    <div class="photo col-3">
+                      <img src="./img/bas.png" alt="photo" class="w-100 h-100">
+                    </div>
+                    <div class="m-1">
+                      <div>
+                        <h5>mohamed basuony</h5>
+                      </div>
+                      <div><span class="sponser">Sponsored . </span><img src="./icon/world.svg" alt="world"></div>
+                    </div>
+                  </div>
+                  <div class="line2 col-12 mt-2 mb-4 ">
+                    <p>Hey guys who is here will come to the pyramids trip ?</p>
+                  </div>
+                  <div class="line3 col-12 row justify-content-between flex-nowrap mb-2">
+                    <div class="left row">
+                      <div class="position-relative">
+                        <img src="./icon/Elike.png" alt="like" class="position-absolute">
+                        <img src="./icon/EH.png" alt="heart-h" class="position-absolute">
+                        <img src="./icon/EHH.png" alt="heart" class="position-absolute">
+                      </div>
+                      <span>129</span>
+                    </div>
+                    <div class="right">
+                      <span>12 comment</span>
+                      <span>8 shares</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="like col-12 row justify-content-between mt-1 mb-3">
+                  <i class="bx bx-like"> like</i>
+                  <i class="bx bx-comment"> comment</i>
+                </div>
+              </div>
+            </div>
+            <div class="comment col-12 col-lg-12 col-md-12 col-sm-12 p-2">
+              <div class="row col-12 justify-content-start m-1">
+                <div><img src="./icon/Avatar.png" alt="Avatar"></div>
+                <div>
+                  <div class="comment-details column">
+                    <span>Mohammed</span>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  </div>
+                  <div class="line3 mt-1 row justify-content-start">
+                    <i class="bx bx-like"> like</i>
+                    <input type="button" value="Reply"></input>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="p-3 col-12 col-lg-8 col-md-6 col-sm-12 column justify-content-start">
+            <div class="post col-12 p-0">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis voluptates quisquam cumque odio
+                explicabo eum ratione earum magnam recusandae sunt nam doloremque repudiandae architecto dolorum natus,
+                accusamus ut. Nisi, aut.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end section Travelers concourse -->
+      <!-- start section Replace residense -->
+      <section class="container content con-remove section-Replace row justify-content-evenly">
+        <div class="left details column justify-content-between text-white col-12 col-lg-4 col-md-4 col-sm-12">
+          <h3>mine</h3>
+          <p class="col-8 m-1 text-center">Record all the necessary information about the home you want to replace</p>
+          <form action="#" class="column col-10">
+            <input class="col-9" type="text" placeholder="Enter your country">
+            <input class="col-9" type="text" placeholder="Enter your Governorate">
+            <input class="col-9" type="text" placeholder="Enter your view">
+            <input class="col-9" type="number" placeholder="Enter your floor number">
+            <input class="col-9" type="text" placeholder="Enter your area">
+            <input class="col-9" type="number" placeholder="Enter your room number">
+            <input class="col-9" type="email" placeholder="Enter your Account E-mail">
+            <input class="col-9" type="tel" placeholder="Enter your phone number">
+            <input type="submit" value="confirm">
+          </form>
+        </div>
+        <div class="col-12 col-lg-4 col-md-4 col-sm-12 column">
+          <svg class="m-3" width="5rem" height="5rem" viewBox="0 0 201 193" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <rect width="190.915" height="199.308" rx="95.4574"
+              transform="matrix(0.00889493 0.99996 -0.999963 0.00861423 199.301 0)" fill="#EBD300" />
+            <path
+              d="M131.357 41.8919L131.329 56.4168L59.658 57.9554C51.7742 58.1247 45.3113 64.7993 45.2961 72.788L45.2684 87.3129L59.6025 87.0051L59.6303 72.4803L131.301 70.9416L131.273 85.4665L159.983 63.0637L131.357 41.8919ZM73.9089 101.222L45.199 123.625L73.8257 144.797L73.8535 130.272L145.524 128.733C153.408 128.564 159.871 121.889 159.886 113.901L159.914 99.3759L145.58 99.6836L145.552 114.208L73.8812 115.747L73.9089 101.222Z"
+              fill="#0F172A" />
+          </svg>
+        </div>
+        <div class="right details column justify-content-between text-white col-12 col-lg-4 col-md-4 col-sm-12">
+          <h3>need</h3>
+          <p class="col-8 m-1 text-center">Record all the necessary information about the home you want </p>
+          <form action="#" class="column col-10">
+            <input class="col-9" type="text" placeholder="Enter your country">
+            <input class="col-9" type="text" placeholder="Enter your Governorate">
+            <input class="col-9" type="text" placeholder="Enter your view">
+            <input class="col-9" type="number" placeholder="Enter your floor number">
+            <input class="col-9" type="text" placeholder="Enter your area">
+            <input class="col-9" type="number" placeholder="Enter your room number">
+            <input class="col-9" type="email" placeholder="Enter your Account E-mail">
+            <input class="col-9" type="tel" placeholder="Enter your phone number">
+            <input type="submit" value="confirm">
+          </form>
+        </div>
+      </section>
+      <!-- End section Replace residense -->
+      <!-- start section Ships -->
+      <section class="container-fluid content con-remove section-Ships row justify-content-around">
+        <form action="#" class="column justify-content-between p-2 col-12 col-lg-5 col-md-7 col-sm-12">
+          <h2>Find Your Trip</h2>
+          <p>Set Your Arrival and Depature Schedule at the Port</p>
+          <label for="travel">Travel Destination</label>
+          <div class="line1 col-12 row justify-content-between">
+            <div class="col-5">
+              <input class="col-12" type="text" id="travel" placeholder="Enter Origin City/Port">
+            </div>
+            <div class="col-2 row align-content-center justify-content-center">
+              <svg width="2rem" height="2rem" viewBox="0 0 201 193" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="190.915" height="199.308" rx="95.4574"
+                  transform="matrix(0.00889493 0.99996 -0.999963 0.00861423 199.301 0)" fill="#EBD300" />
+                <path
+                  d="M131.357 41.8919L131.329 56.4168L59.658 57.9554C51.7742 58.1247 45.3113 64.7993 45.2961 72.788L45.2684 87.3129L59.6025 87.0051L59.6303 72.4803L131.301 70.9416L131.273 85.4665L159.983 63.0637L131.357 41.8919ZM73.9089 101.222L45.199 123.625L73.8257 144.797L73.8535 130.272L145.524 128.733C153.408 128.564 159.871 121.889 159.886 113.901L159.914 99.3759L145.58 99.6836L145.552 114.208L73.8812 115.747L73.9089 101.222Z"
+                  fill="#0F172A" />
+              </svg>
+            </div>
+            <div class="col-5">
+              <input class="col-12" type="text" placeholder="Enter Destination City/Port">
+            </div>
+          </div>
+          <div class="line2 col-12 row justify-content-between mt-3">
+            <div class="col-5 column align-content-start">
+              <label for="Departure">Departure Date</label>
+              <input class="col-12" type="date" name="Departure" id="Departure" placeholder="Select Date">
+            </div>
+            <div class="col-5 margin-left column align-content-start">
+              <label for="Shipping">Select Shipping Lines</label>
+              <input class="col-12" type="text" id="Shipping" placeholder="Blue Star Ferries">
+            </div>
+          </div>
+          <div class="line3 col-12 row justify-content-between mt-2 mb-2">
+            <div class="row col-6 align-content-start justify-content-start">
+              <div>
+                <i class="bx bx-user"></i>
+              </div>
+              <div class="column align-content-start justify-content-start">
+                <h4>Adults</h4>
+                <p>Ages 6 and over</p>
+              </div>
+            </div>
+            <div class="row col-5 align-content-start justify-content-start">
+              <div>
+                <i class="bx bx-user"></i>
+              </div>
+              <div class="column align-content-start justify-content-start">
+                <h4>Children</h4>
+                <p>2-5 years old</p>
+              </div>
+            </div>
+          </div>
+          <div class="row col-12 align-content-start justify-content-start">
+            <input class="col-4" type="submit" value="Find Your Ticket">
+            <input class="col-4" type="button" value="Manage My Bookings" onclick="">
+          </div>
+        </form>
+        <div class="right col-12 col-lg-5 col-md-5 col-sm-12">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia iure qui, ipsa ab accusantium quod
+            suscipit accusamus porro eveniet vel neque aliquam molestiae tenetur, cupiditate commodi quidem, atque
+            reiciendis illo pariatur nemo iste! Rerum dolorum sint ipsa laborum quasi architecto dolor ad velit cumque
+            dolorem necessitatibus, excepturi amet harum accusantium voluptates, recusandae vero doloribus iusto non
+            praesentium consectetur ratione ducimus? Ipsam quasi dicta maxime error impedit dolorum itaque perferendis
+            ex similique cum. Quae quidem provident repellendus vitae quis in exercitationem quam sed magni veniam
+            veritatis architecto aut error voluptatum, temporibus, odio cupiditate mollitia iure voluptate dolore saepe
+            quod! Animi, delectus?</p>
+        </div>
+      </section>
+      <!-- End section Ships -->
+      <!-- start section flights -->
+      <section class="content con-remove section-flight container-fluid row justify-content-start">
+        <div class="col-12 col-lg-7 col-md-6"></div>
+        <div class="col-12 col-lg-3 col-md-6 col-sm-12 mt-5 pt-1">
+          <form action="#" class="col-12 mx-auto position-relative">
+            <div class="column pb-1">
+              <div class="line1 col-12 row position-absolute">
+                <div class="col-4">
+                  <img class="w-100" src="./icon/WhatsApp_Image_2023-10-29_at_22.43.32_039a66bf-removebg-preview.png"
+                    alt="Logo">
+                </div>
+                <div>
+                  <h2>Trip Tekker</h2>
+                </div>
+              </div>
+              <div class="line2 pt-5 mt-3">
+                <h2>flight search</h2>
+              </div>
+              <div class="line3 pt-1 row justify-content-between col-6">
+                <div>
+                  <h4>road trip</h4>
+                </div>
+                <div>
+                  <button value="road trip">road trip</button>
+                </div>
+              </div>
+              <div class="line4 row col-12 pt-2 justify-content-between">
+                <div class="origin col-6">
+                  <label for="origin">origin</label>
+                  <input class="col-10" type="text" id="origin" name="origin" placeholder="dubai">
+                </div>
+                <div class="destinaton col-6">
+                  <label for="destinaton">destinaton</label>
+                  <input class="col-10" type="text" id="destinaton" name="destinaton" placeholder="u.s">
+                </div>
+              </div>
+              <div class="line5  row col-12 pt-1 justify-content-between">
+                <div class="flight col-6">
+                  <label for="flight">flight date</label>
+                  <input class="col-10" type="text" id="flight" name="flight" placeholder="09 aug 2021">
+                </div>
+                <div class="business col-6">
+                  <label for="business">business</label>
+                  <input class="col-10" type="text" id="business" name="business" placeholder="business class">
+                </div>
+              </div>
+              <div class="line6 row col-12 pt-1 justify-content-start">
+                <h2>points price range</h2>
+                <div class="wrapper">
+                  <div class="price-input">
+                    <div class="field">
+                      <span>Min</span>
+                      <input type="number" class="input-min" value="2500" id="pri-input">
+                    </div>
+                    <div class="separator">-</div>
+                    <div class="field">
+                      <span>Max</span>
+                      <input type="number" class="input-max" value="7500" id="pri-input">
+                    </div>
+                  </div>
+                  <div class="slider">
+                    <div class="progress"></div>
+                  </div>
+                  <div class="range-input">
+                    <input type="range" class="range-min" min="0" max="10000" value="2500" step="100" id="ra-input">
+                    <input type="range" class="range-max" min="0" max="10000" value="7500" step="100" id="ra-input">
+                  </div>
+                </div>
+              </div>
+              <div class="line7 col-12 row pt-3">
+                <input type="submit" value="search flight" class="col-8">
+              </div>
+            </div>
+            <img src="./img/Airplane 1.png" alt="Airplane" class="position-absolute">
+          </form>
+        </div>
+      </section>
+      <!-- End section flights -->
+      <!-- start section Find Place -->
+      <section class="content con-remove section-findPlace container-fluid column pt-5">
+        <div class="column pt-5 mt-5">
+          <img src="./icon/ph_camera-fill.png" alt="camera">
+          <input type="image" value="Insert a picture">
+        </div>
+      </section>
+      <!-- End section Find Place -->
+      <!-- start section settings -->
+      <section class="content con-remove section-settings container-fluid row pt-5 text-white">
+        <div class="left column col-11 col-lg-6 col-md-9 col-sm-11 justify-content-start pt-3 mt-3">
+          <div class="top col-10 col-lg-6 col-md-8 col-sm-10">
+            <div class="line1 col-12 row justify-content-around ">
+              <div class="col-4 col-lg-3">
+                <img src="./icon/WhatsApp_Image_2023-10-29_at_22.43.32_039a66bf-removebg-preview.png" alt="photo"
+                  class="w-100 rounded-5">
+              </div>
+              <div>
+                <input type="button" value="upload photo">
+              </div>
+            </div>
+            <div class="line2 pt-2 column col-12">
+              <div class="name column col-12 justify-content-start align-content-start pt-2">
+                <div class="row pb-1 col-12 justify-content-start">
+                  <h4>Your Name</h4>
+                </div>
+                <div class="row col-12 justify-content-between">
+                  <span>Sid</span>
+                  <input type="button" value="Edit">
+                </div>
+              </div>
+              <div class="Email column col-12 justify-content-start align-content-start pt-2">
+                <div class="row pb-1 col-12 justify-content-start">
+                  <h4>Email</h4>
+                </div>
+                <div class="row col-12 justify-content-between">
+                  <span>siddxd@growthx.com</span>
+                  <input type="button" value="Edit">
+                </div>
+              </div>
+              <div class="Phone column col-12 justify-content-start align-content-start pt-2">
+                <div class="row pb-1 col-12 justify-content-start">
+                  <h4>Phone Number</h4>
+                </div>
+                <div class="row col-12 justify-content-between">
+                  <span>+91 49652845732</span>
+                  <input type="button" value="Edit">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bottom pt-5 col-lg-9 col-11">
+            <div class="line1 row justify-content-between pb-3 col-11">
+              <span>About Sid</span>
+              <input type="button" value="Edit">
+            </div>
+            <div class="line2 row">
+              <p>Lorem ipsum dolor sit amet consectetur. Erat auctor a aliquam vel congue luctus. Leo diam cras neque
+                mauris ac arcu elit ipsum dolor sit amet consectetur.</p>
+              <a href="./About.HTML">ABOUT US...</a>
+            </div>
+          </div>
+        </div>
+        <div class="right column align-content-start col-11 col-lg-6 col-md-9 col-sm-11 justify-content-start">
+          <h2>settings</h2>
+          <input class="col-9 col-lg-4 col-md-6 col-sm-9" type="button" value="Manage my account">
+          <input class="col-9 col-lg-4 col-md-6 col-sm-9" type="button" value="Privacy and safety">
+          <input class="col-9 col-lg-4 col-md-6 col-sm-9" type="button" value="Registration">
+          <input class="col-9 col-lg-4 col-md-6 col-sm-9" type="button" value="Balance">
+          <input class="col-9 col-lg-4 col-md-6 col-sm-9" type="button" value="Saved">
+          <input class="col-9 col-lg-4 col-md-6 col-sm-9" type="button" value="Trips">
+          <input class="col-9 col-lg-4 col-md-6 col-sm-9" type="button" value="My Tickets">
+          <input class="col-9 col-lg-4 col-md-6 col-sm-9" type="button" value="Support">
+          <input class="col-9 col-lg-4 col-md-6 col-sm-9" type="button" value="Rate us" name="rate">
+          <input class="col-9 col-lg-4 col-md-6 col-sm-9" type="button" value="Sign out">
+        </div>
+      </section>
+      <!-- End section settings -->
+      <!-- start section User -->
+      <section class="content con-remove section-user container-fluid min-h-100 column col-12 pt-5">
+        <div class="search row col-10 col-lg-4 col-md-8 pt-5 mt-5">
+          <label for="im">
+            <img src="./icon/search.png" alt="search" />
+          </label>
+          <input id="im" type="search" placeholder="search">
+        </div>
+        <div class="column pt-3 col-10">
+          <div class="line1 mb-2 row justify-content-between col-12">
+            <div class="position-relative col-12 col-lg-3 col-md-6 col-sm-12 p-1 text-white">
+              <div class="col-12 d-img">
+                <img src="./img/Bitmap.png" alt="photo" class="">
+              </div>
+              <div class="position-absolute p-1 column justify-content-between col-12">
+                <div class="row top justify-content-end col-12 p-1">
+                  <i class="bx bx-heart"></i>
+                </div>
+                <div class="row bottom justify-content-between p-1 col-12">
+                  <div class="column left col-6 align-content-start justify-content-start">
+                    <h3 class="col-12">Ghost Game</h3>
+                    <p class="col-12">Super Best Ghost</p>
+                    <span class="col-12">$59 / night</span>
+                    <div class="row col-12 align-content-start justify-content-start">
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i id="child" class="bx bxs-star"></i>
+                      <span>(84) reviews</span>
+                    </div>
+                  </div>
+                  <div class="col-6 right">
+                    <button class="row col-10">
+                      <div class="column col-10 align-content-start justify-content-start">
+                        <h3>356 $</h3>
+                        <span>for 6 days</span>
+                      </div>
+                      <div class="col-2">
+                        <i class="bx bx-chevron-right"></i>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="position-relative col-12 col-lg-3 col-md-6 col-sm-12 p-1 text-white">
+              <div class="col-12 d-img">
+                <img src="./img/Bitmap.png" alt="photo" class="">
+              </div>
+              <div class="position-absolute p-1 column justify-content-between col-12">
+                <div class="row top justify-content-end col-12 p-1">
+                  <i class="bx bx-heart"></i>
+                </div>
+                <div class="row bottom justify-content-between p-1 col-12">
+                  <div class="column left col-6 align-content-start justify-content-start">
+                    <h3 class="col-12">Ghost Game</h3>
+                    <p class="col-12">Super Best Ghost</p>
+                    <span class="col-12">$59 / night</span>
+                    <div class="row col-12 align-content-start justify-content-start">
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i id="child" class="bx bxs-star"></i>
+                      <span>(84) reviews</span>
+                    </div>
+                  </div>
+                  <div class="col-6 right">
+                    <button class="row col-10">
+                      <div class="column col-10 align-content-start justify-content-start">
+                        <h3>356 $</h3>
+                        <span>for 6 days</span>
+                      </div>
+                      <div class="col-2">
+                        <i class="bx bx-chevron-right"></i>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="position-relative col-12 col-lg-3 col-md-6 col-sm-12 p-1 text-white">
+              <div class="col-12 d-img">
+                <img src="./img/Bitmap.png" alt="photo" class="">
+              </div>
+              <div class="position-absolute p-1 column justify-content-between col-12">
+                <div class="row top justify-content-end col-12 p-1">
+                  <i class="bx bx-heart"></i>
+                </div>
+                <div class="row bottom justify-content-between p-1 col-12">
+                  <div class="column left col-6 align-content-start justify-content-start">
+                    <h3 class="col-12">Ghost Game</h3>
+                    <p class="col-12">Super Best Ghost</p>
+                    <span class="col-12">$59 / night</span>
+                    <div class="row col-12 align-content-start justify-content-start">
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i id="child" class="bx bxs-star"></i>
+                      <span>(84) reviews</span>
+                    </div>
+                  </div>
+                  <div class="col-6 right">
+                    <button class="row col-10">
+                      <div class="column col-10 align-content-start justify-content-start">
+                        <h3>356 $</h3>
+                        <span>for 6 days</span>
+                      </div>
+                      <div class="col-2">
+                        <i class="bx bx-chevron-right"></i>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="position-relative col-12 col-lg-3 col-md-6 col-sm-12 p-1 text-white">
+              <div class="col-12 d-img">
+                <img src="./img/Bitmap.png" alt="photo" class="">
+              </div>
+              <div class="position-absolute p-1 column justify-content-between col-12">
+                <div class="row top justify-content-end col-12 p-1">
+                  <i class="bx bx-heart"></i>
+                </div>
+                <div class="row bottom justify-content-between p-1 col-12">
+                  <div class="column left col-6 align-content-start justify-content-start">
+                    <h3 class="col-12">Ghost Game</h3>
+                    <p class="col-12">Super Best Ghost</p>
+                    <span class="col-12">$59 / night</span>
+                    <div class="row col-12 align-content-start justify-content-start">
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i id="child" class="bx bxs-star"></i>
+                      <span>(84) reviews</span>
+                    </div>
+                  </div>
+                  <div class="col-6 right">
+                    <button class="row col-10">
+                      <div class="column col-10 align-content-start justify-content-start">
+                        <h3>356 $</h3>
+                        <span>for 6 days</span>
+                      </div>
+                      <div class="col-2">
+                        <i class="bx bx-chevron-right"></i>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="line1 mb-2 row justify-content-between col-12">
+            <div class="position-relative col-12 col-lg-3 col-md-6 col-sm-12 p-1 text-white">
+              <div class="col-12 d-img">
+                <img src="./img/Bitmap.png" alt="photo" class="">
+              </div>
+              <div class="position-absolute p-1 column justify-content-between col-12">
+                <div class="row top justify-content-end col-12 p-1">
+                  <i class="bx bx-heart"></i>
+                </div>
+                <div class="row bottom justify-content-between p-1 col-12">
+                  <div class="column left col-6 align-content-start justify-content-start">
+                    <h3 class="col-12">Ghost Game</h3>
+                    <p class="col-12">Super Best Ghost</p>
+                    <span class="col-12">$59 / night</span>
+                    <div class="row col-12 align-content-start justify-content-start">
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i id="child" class="bx bxs-star"></i>
+                      <span>(84) reviews</span>
+                    </div>
+                  </div>
+                  <div class="col-6 right">
+                    <button class="row col-10">
+                      <div class="column col-10 align-content-start justify-content-start">
+                        <h3>356 $</h3>
+                        <span>for 6 days</span>
+                      </div>
+                      <div class="col-2">
+                        <i class="bx bx-chevron-right"></i>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="position-relative col-12 col-lg-3 col-md-6 col-sm-12 p-1 text-white">
+              <div class="col-12 d-img">
+                <img src="./img/Bitmap.png" alt="photo" class="">
+              </div>
+              <div class="position-absolute p-1 column justify-content-between col-12">
+                <div class="row top justify-content-end col-12 p-1">
+                  <i class="bx bx-heart"></i>
+                </div>
+                <div class="row bottom justify-content-between p-1 col-12">
+                  <div class="column left col-6 align-content-start justify-content-start">
+                    <h3 class="col-12">Ghost Game</h3>
+                    <p class="col-12">Super Best Ghost</p>
+                    <span class="col-12">$59 / night</span>
+                    <div class="row col-12 align-content-start justify-content-start">
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i id="child" class="bx bxs-star"></i>
+                      <span>(84) reviews</span>
+                    </div>
+                  </div>
+                  <div class="col-6 right">
+                    <button class="row col-10">
+                      <div class="column col-10 align-content-start justify-content-start">
+                        <h3>356 $</h3>
+                        <span>for 6 days</span>
+                      </div>
+                      <div class="col-2">
+                        <i class="bx bx-chevron-right"></i>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="position-relative col-12 col-lg-3 col-md-6 col-sm-12 p-1 text-white">
+              <div class="col-12 d-img">
+                <img src="./img/Bitmap.png" alt="photo" class="">
+              </div>
+              <div class="position-absolute p-1 column justify-content-between col-12">
+                <div class="row top justify-content-end col-12 p-1">
+                  <i class="bx bx-heart"></i>
+                </div>
+                <div class="row bottom justify-content-between p-1 col-12">
+                  <div class="column left col-6 align-content-start justify-content-start">
+                    <h3 class="col-12">Ghost Game</h3>
+                    <p class="col-12">Super Best Ghost</p>
+                    <span class="col-12">$59 / night</span>
+                    <div class="row col-12 align-content-start justify-content-start">
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i id="child" class="bx bxs-star"></i>
+                      <span>(84) reviews</span>
+                    </div>
+                  </div>
+                  <div class="col-6 right">
+                    <button class="row col-10">
+                      <div class="column col-10 align-content-start justify-content-start">
+                        <h3>356 $</h3>
+                        <span>for 6 days</span>
+                      </div>
+                      <div class="col-2">
+                        <i class="bx bx-chevron-right"></i>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="position-relative col-12 col-lg-3 col-md-6 col-sm-12 p-1 text-white">
+              <div class="col-12 d-img">
+                <img src="./img/Bitmap.png" alt="photo" class="">
+              </div>
+              <div class="position-absolute p-1 column justify-content-between col-12">
+                <div class="row top justify-content-end col-12 p-1">
+                  <i class="bx bx-heart"></i>
+                </div>
+                <div class="row bottom justify-content-between p-1 col-12">
+                  <div class="column left col-6 align-content-start justify-content-start">
+                    <h3 class="col-12">Ghost Game</h3>
+                    <p class="col-12">Super Best Ghost</p>
+                    <span class="col-12">$59 / night</span>
+                    <div class="row col-12 align-content-start justify-content-start">
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i id="child" class="bx bxs-star"></i>
+                      <span>(84) reviews</span>
+                    </div>
+                  </div>
+                  <div class="col-6 right">
+                    <button class="row col-10">
+                      <div class="column col-10 align-content-start justify-content-start">
+                        <h3>356 $</h3>
+                        <span>for 6 days</span>
+                      </div>
+                      <div class="col-2">
+                        <i class="bx bx-chevron-right"></i>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="line1 mb-2 row justify-content-between col-12">
+            <div class="position-relative col-12 col-lg-3 col-md-6 col-sm-12 p-1 text-white">
+              <div class="col-12 d-img">
+                <img src="./img/Bitmap.png" alt="photo" class="">
+              </div>
+              <div class="position-absolute p-1 column justify-content-between col-12">
+                <div class="row top justify-content-end col-12 p-1">
+                  <i class="bx bx-heart"></i>
+                </div>
+                <div class="row bottom justify-content-between p-1 col-12">
+                  <div class="column left col-6 align-content-start justify-content-start">
+                    <h3 class="col-12">Ghost Game</h3>
+                    <p class="col-12">Super Best Ghost</p>
+                    <span class="col-12">$59 / night</span>
+                    <div class="row col-12 align-content-start justify-content-start">
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i id="child" class="bx bxs-star"></i>
+                      <span>(84) reviews</span>
+                    </div>
+                  </div>
+                  <div class="col-6 right">
+                    <button class="row col-10">
+                      <div class="column col-10 align-content-start justify-content-start">
+                        <h3>356 $</h3>
+                        <span>for 6 days</span>
+                      </div>
+                      <div class="col-2">
+                        <i class="bx bx-chevron-right"></i>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="position-relative col-12 col-lg-3 col-md-6 col-sm-12 p-1 text-white">
+              <div class="col-12 d-img">
+                <img src="./img/Bitmap.png" alt="photo" class="">
+              </div>
+              <div class="position-absolute p-1 column justify-content-between col-12">
+                <div class="row top justify-content-end col-12 p-1">
+                  <i class="bx bx-heart"></i>
+                </div>
+                <div class="row bottom justify-content-between p-1 col-12">
+                  <div class="column left col-6 align-content-start justify-content-start">
+                    <h3 class="col-12">Ghost Game</h3>
+                    <p class="col-12">Super Best Ghost</p>
+                    <span class="col-12">$59 / night</span>
+                    <div class="row col-12 align-content-start justify-content-start">
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i id="child" class="bx bxs-star"></i>
+                      <span>(84) reviews</span>
+                    </div>
+                  </div>
+                  <div class="col-6 right">
+                    <button class="row col-10">
+                      <div class="column col-10 align-content-start justify-content-start">
+                        <h3>356 $</h3>
+                        <span>for 6 days</span>
+                      </div>
+                      <div class="col-2">
+                        <i class="bx bx-chevron-right"></i>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="position-relative col-12 col-lg-3 col-md-6 col-sm-12 p-1 text-white">
+              <div class="col-12 d-img">
+                <img src="./img/Bitmap.png" alt="photo" class="">
+              </div>
+              <div class="position-absolute p-1 column justify-content-between col-12">
+                <div class="row top justify-content-end col-12 p-1">
+                  <i class="bx bx-heart"></i>
+                </div>
+                <div class="row bottom justify-content-between p-1 col-12">
+                  <div class="column left col-6 align-content-start justify-content-start">
+                    <h3 class="col-12">Ghost Game</h3>
+                    <p class="col-12">Super Best Ghost</p>
+                    <span class="col-12">$59 / night</span>
+                    <div class="row col-12 align-content-start justify-content-start">
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i id="child" class="bx bxs-star"></i>
+                      <span>(84) reviews</span>
+                    </div>
+                  </div>
+                  <div class="col-6 right">
+                    <button class="row col-10">
+                      <div class="column col-10 align-content-start justify-content-start">
+                        <h3>356 $</h3>
+                        <span>for 6 days</span>
+                      </div>
+                      <div class="col-2">
+                        <i class="bx bx-chevron-right"></i>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="position-relative col-12 col-lg-3 col-md-6 col-sm-12 p-1 text-white">
+              <div class="col-12 d-img">
+                <img src="./img/Bitmap.png" alt="photo" class="">
+              </div>
+              <div class="position-absolute p-1 column justify-content-between col-12">
+                <div class="row top justify-content-end col-12 p-1">
+                  <i class="bx bx-heart"></i>
+                </div>
+                <div class="row bottom justify-content-between p-1 col-12">
+                  <div class="column left col-6 align-content-start justify-content-start">
+                    <h3 class="col-12">Ghost Game</h3>
+                    <p class="col-12">Super Best Ghost</p>
+                    <span class="col-12">$59 / night</span>
+                    <div class="row col-12 align-content-start justify-content-start">
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i id="child" class="bx bxs-star"></i>
+                      <span>(84) reviews</span>
+                    </div>
+                  </div>
+                  <div class="col-6 right">
+                    <button class="row col-10">
+                      <div class="column col-10 align-content-start justify-content-start">
+                        <h3>356 $</h3>
+                        <span>for 6 days</span>
+                      </div>
+                      <div class="col-2">
+                        <i class="bx bx-chevron-right"></i>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End section User -->
+      <!-- start section offers -->
+      <section class="content con-remove section-offer container pt-5 column col-12">
+        <div class="content col-12">
+          <div class="images col-12 h-100 row position-relative overflow-hidden">
+            <img class="img-carsoul im1 p-1 col-12 col-lg-4 col-md-6 col-sm-12 rounded-3" src="./img/carsoul1.png">
+            <img class="img-carsoul im2 p-1 col-12 col-lg-4 col-md-6 col-sm-12 rounded-3" src="./img/carsoul2.png">
+            <img class="img-carsoul im3 p-1 col-12 col-lg-4 col-md-6 col-sm-12 rounded-3" src="./img/carsoul1.png">
+          </div>
+          <div class="btm-slides">
+            <span onclick="btm_slide(1)"></span>
+            <span onclick="btm_slide(2)"></span>
+            <span onclick="btm_slide(3)"></span>
+          </div>
+          <div class="sliders row left" onclick="side_slide(-1)">
+            <i class="bx bx-chevron-left"></i>
+          </div>
+          <div class="sliders row right" onclick="side_slide(1)">
+            <i class="bx bx-chevron-right"></i>
+          </div>
+        </div>
+        <div class="bottom row col-12">
+          <div class="card-img col-12 col-lg-3 col-md-6 col-sm-12 p-1">
+            <img src="./img/Closing-Panel 1.png" class="w-100 h-100" alt="">
+          </div>
+          <div class="card-img col-12 col-lg-3 col-md-6 col-sm-12 p-1">
+            <img src="./img/Closing-Panel 1.png" class="w-100 h-100" alt="">
+          </div>
+          <div class="card-img col-12 col-lg-3 col-md-6 col-sm-12 p-1">
+            <img src="./img/Closing-Panel 1.png" class="w-100 h-100" alt="">
+          </div>
+          <div class="card-img col-12 col-lg-3 col-md-6 col-sm-12 p-1">
+            <img src="./img/Closing-Panel 1.png" class="w-100 h-100" alt="">
+          </div>
+        </div>
+      </section>
+      <!-- End section offers -->
+      <!-- start section Contact -->
+      <section
+        class="content con-remove section-contact position-relative min-h-100 text-white row justify-content-between container">
+        <div class="left mt-5 col-11 col-lg-6 col-md-9 col-sm-11 pt-5">
+          <form action="#" class=" col-12">
+            <h2 class="mb-1">Contact Details</h2>
+            <div class="line1 col-12 row mb-1">
+              <div class="colmun col-12 col-lg-5 col-md-7 col-sm-10">
+                <label for="First">First Name</label>
+                <input type="text" placeholder="First Name" id="First" class="col-12 col-lg-10 col-md-10 col-sm-12">
+              </div>
+              <div class="colmun col-12 col-lg-5 col-md-7 col-sm-10 align-content-start">
+                <label for="Last">Last Name</label>
+                <input type="text" placeholder="Last Name" id="Last" class="col-12 col-lg-10 col-md-10 col-sm-12">
+              </div>
+            </div>
+            <div class="line2 col-10 column mb-1">
+              <label for="Email">Email</label>
+              <input class="col-12" type="email" placeholder="Enter your Email..." id="Email">
+            </div>
+            <div class="line3 col-10 column align-content-start">
+              <label for="Phone">Phone Number</label>
+              <input class="col-12" type="number" placeholder="Phone Number" id="Phone">
+            </div>
+          </form>
+        </div>
+        <div class="right mt-5 col-11 col-lg-6 col-md-9 col-sm-11 mb-5 mt-5">
+          <form action="#" class="column align-content-start justify-content-start col-12">
+            <h2 class=" col-12">Payment Methods</h2>
+            <div class="row col-12 mt-3">
+              <div class="col-1">
+                <input type="radio" name="pay" id="Delivery">
+              </div>
+              <div class="column col-11 align-content-start justify-content-start">
+                <label for="Delivery" class="col-12">Pay on Delivery</label>
+                <span class="col-12">Pay with cash on delivery</span>
+              </div>
+            </div>
+            <div class="row col-12 mt-3">
+              <div class="col-1">
+                <input type="radio" name="pay" id="Cards">
+              </div>
+              <div class="column col-11 align-content-start justify-content-start">
+                <label for="Cards" class="col-12">Credit/Debit Cards</label>
+                <span class="col-12">Pay with your Credit / Debit Card</span>
+              </div>
+            </div>
+            <div class="row col-12 mt-3">
+              <div class="col-1">
+                <input type="radio" name="pay" id="Transfer">
+              </div>
+              <div class="column col-11 align-content-start justify-content-start">
+                <label for="Transfer" class="col-12">Direct Bank Transfer</label>
+                <span class="col-12">Make payment directly through bank account.</span>
+              </div>
+            </div>
+            <div class="row col-12 mt-3">
+              <div class="col-1">
+                <input type="radio" name="pay" id="Methods">
+              </div>
+              <div class="column col-11 align-content-start justify-content-start">
+                <label for="Methods" class="col-12">Other Payment Methods</label>
+                <span class="col-12">Make payment through Gpay, Paypal, Paytm etc</span>
+              </div>
+            </div>
+            <div class="row input-but col-12 align-content-start justify-content-between">
+              <div class="col-6 ">
+                <input type="button" value="Back">
+              </div>
+              <div class="col-6">
+                <input type="button" value="Pay  $164.23">
+              </div>
+            </div>
+          </form>
+        </div>
+        <input type="submit" value="Confirm" class="position-absolute">
+      </section>
+      <!-- End section Contact -->
+      <!-- start section Events -->
+      <section class="content section-event "></section>
+      <!-- End section Events -->
+    </main>
+    <script src="./js/tab.js"></script>
+    <script src="./js/javasccript.js"></script>
+    <script src="./js/Price.js"></script>
+    <script src="./js/carsoul.js"></script>
+    <!-- <script src="./js/HOME.js"></script> -->
+  </body>
+
+
+</html>

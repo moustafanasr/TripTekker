@@ -1,0 +1,80 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Work Sans', sans-serif;
+}
+
+/* Root variable */
+:root {
+  --primary-color: #0C111F;
+  --secondary-color: #F7D247;
+  --three-color-linear: linear-gradient(to right, #F9EC7D, #F5B100);
+  --four-color: #EBD300;
+  --hover-color: #F9EC7D;
+  --font-color-blur: #ffffffb4;
+  --font-color: #ffffff;
+  --bgcolor-comment:#101439;
+  --bgcolor-comment-details:#03091C;
+  --bgcolor-input:#202846;
+  --bgcolor-form:#0000003b;
+}
+
+/* start Header */
+body {
+  scroll-behavior: smooth;
+  background-color: var(--primary-color);
+  /* min-height: 100vh; */
+}
+section a{
+  top: 10px;
+  left: 0px;
+}
+section .left{
+  border: none;
+  margin: 0px;
+  padding: 0px;
+  height: 98vh;
+}
+section .left::after{
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #00000073;
+  z-index: 1;
+}
+section .right div span span{
+  color: var(--four-color);
+}
+section .right div form .line1 input,
+section .right div form .line3 input,
+section .right div form .line4 input,
+section .right div form .line2 input{
+  background-color: transparent;
+  padding: 10px;
+  border: none;
+  border-bottom:1px solid var(--font-color) ;
+  margin-top: 5px;
+  color: var(--font-color);
+}
+section .right div form .line3 button{
+  background-color: transparent;
+  color: var(--font-color);
+  border: none;
+  cursor: pointer;
+}
+section .right div form input[value="Login"]{
+  margin-top: 50px;
+  padding: 15px 0px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  background-color: var(--four-color);
+  font-weight: bold;
+  font-size: 18px;
+}
